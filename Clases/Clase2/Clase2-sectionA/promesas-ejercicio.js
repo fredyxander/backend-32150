@@ -1,0 +1,11 @@
+Promise.resolve(20)
+.then( x => x + 1 )
+.then( x => x * 2 )
+.then( x => {
+    if(x==42) throw 'Error'
+    else return 80
+})
+.then( x => 30 )
+.then( x => x / 2 )
+.then( console.log )
+.catch( console.log )

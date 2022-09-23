@@ -3,7 +3,7 @@
 // }
 
 const promesa = new Promise((resolve, reject)=>{
-    let condition = false;
+    let condition = true;
     if(condition === true){
         resolve("operacion completada con exito")
     } else{
@@ -12,5 +12,14 @@ const promesa = new Promise((resolve, reject)=>{
     }
 })
 
-promesa.then((resultado)=>console.log(resultado))
-.catch(error=>console.log(error))
+// promesa.then((resultado)=>console.log(resultado))
+// .catch(error=>console.log(error))
+
+//async-await
+const getData = async()=>{
+    try {
+        const resultado = await promesa;
+    } catch (error) {
+        console.log(error)
+    }
+}

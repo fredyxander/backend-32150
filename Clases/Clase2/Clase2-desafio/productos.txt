@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "camisa",
+    "price": 300,
+    "thumbnail": "https://arturocalle.vtexassets.com/arquivos/ids/473103/HOMBRE-CAMISA-10122546-AZUL-780_1.jpg?v=637950736212900000"
+  },
+  {
+    "id": 3,
+    "title": "sombrero",
+    "price": 200,
+    "thumbnail": "https://arturocalle.vtexassets.com/arquivos/ids/473103/HOMBRE-CAMISA-10122546-AZUL-780_1.jpg?v=637950736212900000"
+  },
+  {
+    "id": 4,
+    "title": "zapatos",
+    "price": 100,
+    "thumbnail": "https://arturocalle.vtexassets.com/arquivos/ids/473103/HOMBRE-CAMISA-10122546-AZUL-780_1.jpg?v=637950736212900000"
+  },
+  {
+    "id": 5,
+    "title": "camisa",
+    "price": 300,
+    "thumbnail": "https://arturocalle.vtexassets.com/arquivos/ids/473103/HOMBRE-CAMISA-10122546-AZUL-780_1.jpg?v=637950736212900000"
+  },
+  {
+    "id": 6,
+    "title": "zapatos",
+    "price": 100,
+    "thumbnail": "https://arturocalle.vtexassets.com/arquivos/ids/473103/HOMBRE-CAMISA-10122546-AZUL-780_1.jpg?v=637950736212900000"
+  },
+  {
+    "id": 7,
+    "title": "sombrero",
+    "price": 200,
+    "thumbnail": "https://arturocalle.vtexassets.com/arquivos/ids/473103/HOMBRE-CAMISA-10122546-AZUL-780_1.jpg?v=637950736212900000"
+  },
+  {
+    "id": 8,
+    "title": "zapatos",
+    "price": 100,
+    "thumbnail": "https://arturocalle.vtexassets.com/arquivos/ids/473103/HOMBRE-CAMISA-10122546-AZUL-780_1.jpg?v=637950736212900000"
+  }
+]

@@ -17,6 +17,7 @@ class Contenedor{
                 }
                 productos.push(newProduct);
                 await fs.promises.writeFile(this.nameFile, JSON.stringify(productos, null, 2))
+                return productos;
             } else{
                 // si el archivo no existe
                 const newProduct={
@@ -70,42 +71,21 @@ class Contenedor{
             console.log(error)
         }
     }
+
+    updateById = async(id, body)=>{
+        try {
+            const productos = await this.getAll();
+            const productPos = productos.findIndex(elm=>elm.id === id);
+            productos[productPos] = {
+                id:id,
+                ...body
+            };
+            await fs.promises.writeFile(this.nameFile, JSON.stringify(productos, null, 2))
+            return productos;
+        } catch (error) {
+            console.log(error)
+        }
+    }
 }
 
-const listaProductos = new Contenedor("./productos.txt");
-const producto1 = {
-    title:"camisa",
-    price:300,
-    thumbnail:"https://arturocalle.vtexassets.com/arquivos/ids/473103/HOMBRE-CAMISA-10122546-AZUL-780_1.jpg?v=637950736212900000"
-}
-const productoRepetido = {
-    title:"camisa",
-    price:300,
-    thumbnail:"https://arturocalle.vtexassets.com/arquivos/ids/473103/HOMBRE-CAMISA-10122546-AZUL-780_1.jpg?v=637950736212900000"
-}
-const producto2 = {
-    title:"zapatos",
-    price:100,
-    thumbnail:"https://arturocalle.vtexassets.com/arquivos/ids/473103/HOMBRE-CAMISA-10122546-AZUL-780_1.jpg?v=637950736212900000"
-}
-
-const producto3 = {
-    title:"sombrero",
-    price:200,
-    thumbnail:"https://arturocalle.vtexassets.com/arquivos/ids/473103/HOMBRE-CAMISA-10122546-AZUL-780_1.jpg?v=637950736212900000"
-}
-
-const crearProducto = async()=>{
-    await listaProductos.save(producto1);
-    await listaProductos.save(producto2);
-    await listaProductos.save(producto3);
-    const resultadoId = await listaProductos.getById(1);
-    console.log(resultadoId)
-    const productos = await listaProductos.getAll();
-    console.log(productos)
-    await listaProductos.deleteById(2);
-    await listaProductos.save(producto2);
-    // await listaProductos.deleteAll();
-}
-
-crearProducto();
+module.exports = Contenedor;

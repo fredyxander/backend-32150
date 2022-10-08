@@ -13,7 +13,6 @@ productsRouter.get("/",async(req,res)=>{
         res.status(500).send("hubo un error en el servidor")
     }
 })
-
 // /api/productos/5
 // /api/productos/:productId
 productsRouter.get("/:id", async(req,res)=>{
@@ -32,6 +31,7 @@ productsRouter.get("/:id", async(req,res)=>{
 })
 
 productsRouter.post("/",async(req,res)=>{
+    console.log("body",req.body);
     const newProduct = req.body;
     const productos = await contenedorProductos.save(newProduct);
     res.json({

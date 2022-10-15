@@ -1,7 +1,3 @@
-// const division = (dividendo, divisor)=>{
-
-// }
-
 const promesa = new Promise((resolve, reject)=>{
     let condition = true;
     if(condition === true){

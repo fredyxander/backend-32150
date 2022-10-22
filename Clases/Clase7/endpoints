@@ -1,0 +1,41 @@
+router productos:
+get  /  lista todos los productos
+get /:id  informaciond e un producto
+post / agregar un producto al listado de productos
+post /api/productos/
+body{
+    title:,
+    price,
+    thumbnail
+}
+
+put /api/productos ->actualizar un producto del listado de productos
+put /api/productos/:id
+body{
+    id:1,
+    title:,
+    price
+}
+
+delete /api/productos/:id ->elimina un prodcuto del listado de productos.
+
+
+
+
+Router Carrito
+POST: '/' - Crea un carrito y devuelve su id.
+
+DELETE: '/:id' - Vacía un carrito y lo elimina.
+
+GET: '/:id/productos' - Me permite listar todos los productos guardados en el carrito
+
+        id del carrito
+POST: '/:id/productos' - Para incorporar productos al carrito por su id de producto
+body{
+    id:8 ->id del producto
+}
+
+        id del carrito
+DELETE: '/:id/productos/:id_prod'
+idProduct- id del producto
+

@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "title":"camisa",
+        "price":23,
+        "thumbnail":"url"
+    },
+    {
+        "id":2,
+        "title":"camisa",
+        "price":23,
+        "thumbnail":"url"
+    },
+    {
+        "id":3,
+        "title":"camisa",
+        "price":23,
+        "thumbnail":"url"
+    },
+    {
+        "id":4,
+        "title":"camisa",
+        "price":23,
+        "thumbnail":"url"
+    }
+]

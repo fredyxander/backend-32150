@@ -10,8 +10,9 @@ app.use((req,res,next)=>{
     next();
 })
 
+const rol = "student";
+
 const verificarRol = (req,res,next)=>{
-    const rol = "student";
     if(rol === "admin"){
         next();
     } else{

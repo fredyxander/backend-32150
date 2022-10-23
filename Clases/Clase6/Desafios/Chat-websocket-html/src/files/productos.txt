@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "camisa",
+    "price": "8762",
+    "thumbnail": "https://arturocalle.vtexassets.com/arquivos/ids/473103/HOMBRE-CAMISA-10122546-AZUL-780_1.jpg?v=637950736212900000"
+  },
+  {
+    "id": 2,
+    "title": "pantalon",
+    "price": "762",
+    "thumbnail": "https://contents.mediadecathlon.com/p1786958/k$2b0a8a97ea3b1154f2f3734009451fe2/pantalon-de-montana-y-trekking-viaje-de-hombre-forclaz-travel-100-gris.jpg?&f=800x800"
+  },
+  {
+    "id": 3,
+    "title": "zapatos",
+    "price": "120",
+    "thumbnail": "https://d1fufvy4xao6k9.cloudfront.net/images/landings/421/wedding-shoe.jpg"
+  },
+  {
+    "id": 4,
+    "title": "otra camisa",
+    "price": "125",
+    "thumbnail": "https://arturocalle.vtexassets.com/arquivos/ids/473103/HOMBRE-CAMISA-10122546-AZUL-780_1.jpg?v=637950736212900000"
+  },
+  {
+    "id": 5,
+    "title": "tennis",
+    "price": "145",
+    "thumbnail": "https://superdrycolombia.vteximg.com.br/arquivos/ids/187594-460-561/zapatos-para-hombre-edit-dap-superdry1764.jpg?v=637455451447100000"
+  }
+]

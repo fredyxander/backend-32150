@@ -1,9 +1,12 @@
 const express = require('express');
-const Contenedor = require("../managers/contenedorProductos");
+// const Contenedor = require("../managers/contenedorProductos");
+const ContenedorSql = require("../managers/contenedorSql");
+const options = require("../config/dbConfig");
 
 const router = express.Router();
 
-const productosApi = new Contenedor("productos.txt");
+// const productosApi = new Contenedor("productos.txt");
+const productosApi = new ContenedorSql(options.mariaDB, "products");
 
 router.get('/',async(req,res)=>{
     const productos = await productosApi.getAll();

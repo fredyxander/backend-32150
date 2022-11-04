@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "user": "fredy",
+    "timestamp": "3/11/2022, 21:59:10",
+    "message": "hola"
+  },
+  {
+    "id": 2,
+    "user": "fredy",
+    "timestamp": "3/11/2022, 21:59:14",
+    "message": "comoe stas"
+  }
+]

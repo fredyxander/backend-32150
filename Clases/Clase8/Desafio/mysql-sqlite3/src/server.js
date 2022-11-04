@@ -1,13 +1,17 @@
 const express = require('express');
+const options = require("./config/dbConfig");
 const {productsRouter, products} = require('./routes/products');
 const handlebars = require('express-handlebars');
 const {Server} = require("socket.io");
 const Contenedor = require("./managers/contenedorProductos");
 const ContenedorChat = require('./managers/contenedorChat');
+const ContenedorSql = require("./managers/contenedorSql");
 
 //service
-const productosApi = new Contenedor("productos.txt");
-const chatApi = new ContenedorChat("chat.txt");
+// const productosApi = new Contenedor("productos.txt");
+const productosApi = new ContenedorSql(options.mariaDB, "products");
+// const chatApi = new ContenedorChat("chat.txt");
+const chatApi = new ContenedorSql(options.sqliteDB,"chat");
 
 //server
 const app = express();
@@ -32,7 +36,6 @@ app.get('/productos',async(req,res)=>{
 
 //api routes
 app.use('/api/products',productsRouter)
-
 
 
 //express server

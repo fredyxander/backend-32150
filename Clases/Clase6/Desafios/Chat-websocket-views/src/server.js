@@ -34,7 +34,6 @@ app.get('/productos',async(req,res)=>{
 app.use('/api/products',productsRouter)
 
 
-
 //express server
 const server = app.listen(8080,()=>{
     console.log('listening on port 8080')

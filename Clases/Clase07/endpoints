@@ -25,17 +25,16 @@ delete /api/productos/:id ->elimina un prodcuto del listado de productos.
 Router Carrito
 POST: '/' - Crea un carrito y devuelve su id.
 
-DELETE: '/:id' - Vacía un carrito y lo elimina.
+DELETE: '/:id' - Vacía un carrito y lo elimina por id del carrito.
 
-GET: '/:id/productos' - Me permite listar todos los productos guardados en el carrito
+GET: '/:id/productos' - Me permite listar todos los productos guardados en el carrito.
 
         id del carrito
-POST: '/:id/productos' - Para incorporar productos al carrito por su id de producto
+POST: '/:id/productos' - Para incorporar productos al carrito por su id de producto.
 body{
     id:8 ->id del producto
 }
 
         id del carrito
-DELETE: '/:id/productos/:id_prod'
-idProduct- id del producto
-
+DELETE: '/:id/productos/:id_prod' - elimina un producto del carrito.
+id_Prod- id del producto

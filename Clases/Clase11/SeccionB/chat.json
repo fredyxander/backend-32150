@@ -1,0 +1,38 @@
+[
+    {
+        "author": {
+            "id": "mail del usuario",
+            "nombre": "nombre del usuario",
+            "apellido": "apellido del usuario",
+            "edad": "edad del usuario",
+            "alias": "alias del usuario",
+            "avatar": "url avatar (foto, logo) del usuario"
+        },
+        "text": "mensaje del usuario"
+    },
+    {
+        "author": {
+            "id": "mail del usuario",
+            "nombre": "nombre del usuario",
+            "apellido": "apellido del usuario",
+            "edad": "edad del usuario",
+            "alias": "alias del usuario",
+            "avatar": "url avatar (foto, logo) del usuario"
+        },
+        "text": "mensaje del usuario"
+    },
+    {
+        "author": {
+            "id": "mail del usuario",
+            "nombre": "nombre del usuario",
+            "apellido": "apellido del usuario",
+            "edad": "edad del usuario",
+            "alias": "alias del usuario",
+            "avatar": "url avatar (foto, logo) del usuario"
+        },
+        "text": "mensaje del usuario"
+    }
+]
+
+// const mensajesHistory = await apiservice.getAll();
+// const normalizeData = normalize({id:"mensajes", mensajes:mensajesHistory})

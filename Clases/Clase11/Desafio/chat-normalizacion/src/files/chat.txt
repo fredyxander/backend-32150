@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "author": {
+      "email": "freddy5210@gmail.com",
+      "name": "fredy",
+      "lastname": "chaparro"
+    },
+    "text": "nuevo mensaje",
+    "timestamp": "24/11/2022, 20:01:24"
+  },
+  {
+    "id": 2,
+    "author": {
+      "email": "freddy5210@gmail.com",
+      "name": "fredy",
+      "lastname": "chaparro"
+    },
+    "text": "otro mensaje",
+    "timestamp": "24/11/2022, 20:01:43"
+  },
+  {
+    "id": 3,
+    "author": {
+      "email": "laura@gmail.com",
+      "name": "laura",
+      "lastname": "perez"
+    },
+    "text": "soy laura",
+    "timestamp": "24/11/2022, 20:02:19"
+  },
+  {
+    "id": 4,
+    "author": {
+      "email": "freddy5210@gmail.com",
+      "name": "fredy",
+      "lastname": "chaparro"
+    },
+    "text": "hola Laura",
+    "timestamp": "24/11/2022, 20:48:55"
+  },
+  {
+    "id": 5,
+    "author": {
+      "email": "laura@gmail.com",
+      "name": "laura",
+      "lastname": "perez"
+    },
+    "text": "hola fredy",
+    "timestamp": "24/11/2022, 20:49:28"
+  },
+  {
+    "id": 6,
+    "author": {
+      "email": "pedro@gmail.com",
+      "name": "pedro",
+      "lastname": "lopez"
+    },
+    "text": "hola a todos",
+    "timestamp": "24/11/2022, 20:50:39"
+  }
+]

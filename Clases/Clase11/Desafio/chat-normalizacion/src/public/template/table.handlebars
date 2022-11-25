@@ -1,0 +1,23 @@
+{{#if products.length}}
+<h2 class="text-success">Productos</h2>
+  <table class="table table-bordered">
+    <thead class="table-dark">
+      <tr>
+        <th scope="col">Titulo</th>
+        <th scope="col">Precio</th>
+        <th scope="col">Imagen</th>
+      </tr>
+    </thead>
+    <tbody>
+          {{#each products}}
+          <tr>
+              <td>{{this.title}}</td>
+              <td>{{this.price}}</td>
+              <td><img width="60" src={{this.thumbnail}}/></td>
+          </tr>
+          {{/each}}
+    </tbody>
+  </table>
+{{else}}
+<p>no hay productos</p>
+{{/if}}

@@ -1,0 +1,24 @@
+.my-validation-message::before {
+    display: none;
+}
+
+.my-validation-message i {
+    margin: 0 .4em;
+    color: #f27474;
+    font-size: 1.4em;
+}
+
+table, td, th{
+    border:1px solid black;
+}
+.empty-list{
+    color: red;
+}
+
+.containerTable{
+    margin: 10px;
+}
+
+.chatInputSize{
+    width: 50px;
+}

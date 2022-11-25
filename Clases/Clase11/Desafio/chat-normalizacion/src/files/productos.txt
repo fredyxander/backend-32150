@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "camisa",
+    "price": "87",
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_990732-MCO31098832042_062019-W.jpg"
+  },
+  {
+    "id": 3,
+    "title": "maleta",
+    "price": 300,
+    "thumbnail": "https://panamericana.vteximg.com.br/arquivos/ids/261725-1080-1080/cuaderno-5-materias-argollado-incolors-de-hojas-cuadriculadas-7707668554700.jpg?v=636383267550730000"
+  }
+]
